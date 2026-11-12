@@ -31,6 +31,8 @@ public class Library {
             System.out.println("No match found.");
         }
     }
+
+    // تعلييق 
     
     public void removeBook(int id) {
         boolean removed = books.removeIf(book -> book.getId() == id);
