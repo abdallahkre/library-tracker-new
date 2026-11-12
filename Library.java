@@ -31,4 +31,13 @@ public class Library {
             System.out.println("No match found.");
         }
     }
+    
+    public void removeBook(int id) {
+        boolean removed = books.removeIf(book -> book.getId() == id);
+        if (removed) {
+            System.out.println("Book removed.");
+        } else {
+            System.out.println("Book not found.");
+        }
+    }
 }
