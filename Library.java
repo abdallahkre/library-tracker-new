@@ -4,8 +4,9 @@ public class Library {
 
     private ArrayList<Book> books = new ArrayList<>();
 
-    public void addBook(Book book) {
+        public void addBook(Book book) {
         books.add(book);
+        System.out.println("Book added: " + book.getTitle());
     }
 
     public void listBooks() {
