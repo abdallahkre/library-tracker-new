@@ -11,7 +11,7 @@ public class Library {
 
     public void listBooks() {
         if (books.isEmpty()) {
-            System.out.println("No books found.");
+        System.out.println("The library is empty.");
             return;
         }
 
